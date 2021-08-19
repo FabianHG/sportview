@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Equipos"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="America" />
+
+    <TextView
+        android:id="@+id/textViewInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="E:1 G:3 P:0 PJ:4 Pts:10" />
+
+    <TextView
+        android:id="@+id/textViewInfo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Toluca" />
+    <TextView
+        android:id="@+id/textViewInfo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="E:1 G:3 P:1 PJ:5 Pts:10" />
+    <TextView
+        android:id="@+id/textViewInfo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="León" />
+    <TextView
+        android:id="@+id/textViewInfo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="E:0 G:3 P:1 PJ:4 Pts:9" />
+
+    <Button
+        android:id="@+id/btnRegresarInicio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="Regresar" />
+
+</LinearLayout>
